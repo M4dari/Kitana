@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kitana - Robô de Combate</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand titulo" href="#">Kitana</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#robo">O Robô</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#arma">Arma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hardware">Hardware</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#videos">Vídeos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Home -->
+    <section id="home" class="bg-dark text-light py-5 text-center">
+        <div class="container">
+            <h1 class="display-4">Bem-vindo ao Mundo de <h1 class="display-4 decoracao"> Kitana</h1></h1>
+            <p class="lead">Conheça a robô de combate projetada para dominar a arena da Robocup.</p>
+        </div>
+    </section>
+
+    <!-- Seção O Robô -->
+<section id="robo" class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Coluna do texto -->
+            <div class="col-md-6">
+                <h2 class="display-4">Kitana: A Guerreira Tecnológica</h2>
+                <p class="lead">Inspirada na famosa personagem de Mortal Kombat, Kitana é um robô de combate equipado com um leque mortal. Ela foi projetada para as arenas da Robocup, onde irá enfrentar adversários com precisão e estratégia.</p>
+                <p>Desenvolvida com tecnologia de ponta, utilizando Arduino e motores de alta precisão, Kitana promete ser uma oponente formidável. Com sua arma letal, um leque com agulhas afiadas, ela está pronta para dominar a competição e desestabilizar os adversários.</p>
+            </div>
+            <!-- Coluna da imagem -->
+            <div class="col-md-6">
+                <img src="./imagens/kitana_frente-removebg-preview.png" class="img-fluid" alt="Imagem do robô Kitana">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Carousel de Imagens -->
+    <section id="carousel" class="bg-dark py-5">
+        <div class="container">
+            <div id="kitanaCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./imagens/kitana_leque.jpg" class="d-block mx-auto" alt="Robô Kitana">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagens/kitana_lado.jpg"  class="d-block mx-auto" alt="Robô Kitana em construção">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagens/kitana_comp.jpg" class="d-block mx-auto" alt="Kitana em ação">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#kitanaCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#kitanaCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sistema de Armas -->
+    <section id="arma" class="bg-dark  py-5">
+        <div class="container">
+            <h2 class="mb-4 d-flex justify-content-center">Sistema de Armas de Kitana</h2>
+            <div class="row grid" >
+                <div class="col-md-4  mb-3" >
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imagens/leque_movimento.jpeg" class="card-img-top" alt="Componentes da Kitana">
+                        <div class="card-body">
+                            <h5 class="card-title">Leque</h5>
+                            <p class="card-text">O leque de Kitana, inspirado na personagem do jogo, é equipado com agulhas afiadas, projetado para perfurar e desestabilizar seus adversários nas arenas de combate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imagens/leque_motor.jpeg" class="card-img-top" alt="Motor que permite a movimentação da arma">
+                        <div class="card-body">
+                            <h5 class="card-title">Leque Movimento</h5>
+                            <p class="card-text">O leque de Kitana é impulsionado por um servo motor de alta precisão, que gira a 180° realizando a movimentação do leque, permitindo movimentos ágeis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imagens/leque_agulha.jpeg" class="card-img-top" alt="Arma aberta com leques">
+                        <div class="card-body">
+                            <h5 class="card-title">Agulhas</h5>
+                            <p class="card-text">As agulhas no leque de Kitana são projetadas para perfurar os balões dos adversários com precisão letal, trazendo uma vantagem estratégica em combates de robôs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Hardware -->
+    <section id="hardware" class="bg-dark text-light py-5">
+        <div class="container">
+            <h2 class="mb-4">Hardware Necessário para Montagem de Kitana</h2>
+            <ul>
+                <li>Placa Arduino Mega 2560</li>
+                <li>2 Motores DC </li>
+                <li>Arduino Shield</li>
+                <li>9 sensores</li>
+                <li>Pack de pilhas</li>
+                <li>Módulo Bluetooth</li>
+                <li>Servo Motor</li>
+                <li>Leque</li>
+                <li>Agulhas</li>
+                <li>Fita Led RGB</li>
+                <li>Jumpers</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção Vídeos -->
+    <section id="videos" class="bg-dark text-light py-5">
+        <div class="container">
+            <h2 class="mb-4">Vídeos de Kitana em Ação</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/Gn5ciV1hzrY" title="Construção do Robô Kitana"></iframe>
+                    </div>
+                    <p class="text-center mt-2">Construção do Robô Kitana</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/yGJJ6eofb7A" title="Kitana em Movimento"></iframe>
+                    </div>
+                    <p class="text-center mt-2">Kitana em Movimento</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+<section class="py-5 bg-dark text-light contato" id="contato">
+    <div class="container">
+        <h2 class="text-center mb-4">Entre em Contato Conosco</h2>
+        <div class="row mb-5">
+            <!-- Plano de Marketing Digital e Estatístico -->
+            <div class="col-md-6">
+                <h3>Plano de Marketing Digital</h3>
+                <p>Estamos comprometidos em manter uma comunicação clara e aberta com nossos clientes, distribuidores e imprensa especializada. Nossos canais de comunicação são projetados para oferecer suporte eficiente e garantir que todas as suas necessidades sejam atendidas. Acompanhe nossas redes sociais para atualizações e entre em contato diretamente para suporte técnico e informações sobre nossos produtos.</p>
+
+                <h3>Critérios de Projeções de Demanda</h3>
+                <p>Para atrair investidores e avaliar o potencial de negócios, usamos critérios detalhados para nossas projeções de demanda. Esses critérios ajudam a definir o mercado-alvo e prever o crescimento futuro do produto.</p>
+            </div>
+            <!-- Informações de Contato -->
+        
+            <div class="col-md-6">
+                <h3>Apresentação de Dados para Investidores</h3>
+                <p>Para facilitar a organização e segurança das informações para investidores, oferecemos três níveis de acesso:</p>
+                <ul>
+                    <li><strong>Nível I:</strong> Dados gerais abertos para todos. Informações públicas sobre o robô e a empresa.</li>
+                    <li><strong>Nível II:</strong> Início da negociação, com termo de sigilo. Informações detalhadas sobre o projeto e proposta de valor.</li>
+                    <li><strong>Nível III:</strong> Fechamento, com acesso completo às projeções e diferenciais. Assinatura de contrato para acesso completo às informações estratégicas e financeiras.</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- Rodapé -->
+<footer class="text-center text-light py-4 rodape">
+    <div class="container">
+        <div class="row">
+            <!-- Coluna de Informações de Contato -->
+            <div class="col-md-4 mb-3">
+                <h5>Contato</h5>
+                <p>Para dúvidas ou suporte, entre em contato conosco:</p>
+                <p><a href="mailto:support@kitana.com" class="text-light">support@kitana.com</a></p>
+            </div>
+
+            <!-- Coluna de Redes Sociais -->
+            <div class="col-md-4 mb-3">
+                <h5>Redes Sociais</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://facebook.com" target="_blank" class="text-light">Facebook</a></li>
+                    <li><a href="https://twitter.com" target="_blank" class="text-light">Twitter</a></li>
+                    <li><a href="https://instagram.com" target="_blank" class="text-light">Instagram</a></li>
+                    <li><a href="https://linkedin.com" target="_blank" class="text-light">LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna de Sobre a Empresa -->
+            <div class="col-md-4 mb-3">
+                <h5>Sobre a Kitana</h5>
+                <p>Kitana é uma empresa inovadora no campo da robótica, dedicada a desenvolver robôs de alta performance para competições e aplicações práticas. Nossa missão é combinar tecnologia avançada com design elegante para criar soluções que façam a diferença.</p>
+            </div>
+        </div>
+        
+        <!-- Direitos Autorais -->
+        <div class="mt-4">
+            <p>© 2024 Kitana Robotics. Todos os direitos reservados.</p>
+            <p><a href="#" class="text-light">Política de Privacidade</a> | <a href="#" class="text-light">Termos de Uso</a></p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                
+</body>

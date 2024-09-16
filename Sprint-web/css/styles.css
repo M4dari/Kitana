@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+:root{
+    --color-blue:#87CEEB;
+    --color-white:#f1f1f1;
+    --color-black: #121212;
+    --color-gray: #333;
+}
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+.navbar {
+    background-color: var(--color-gray);
+}
+.titulo{
+    color: var(--color-blue) !important;
+    font-family: Poppins, sans-serif;
+}
+.nav-link {
+    color: #ccc !important;
+}
+.nav-link:hover {
+    color: var(--color-blue) !important;
+}
+.bg-dark {
+    background-color: var(--color-gray) !important;
+}
+
+.decoracao{
+    color: var(--color-blue);
+}
+
+
+.card {
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    height: 350px;
+    background-color: rgb(238, 240, 200)!important;
+    transition: .5s;
+}
+.card:hover{
+    background-color: var(--color-blue) !important;
+}
+.mb-4{
+    color: var(--color-white);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.card img{
+    height:  250px;
+    object-fit: cover;
+}
+.card p {
+    color: var(--color-gray);
+    font-size: 1rem;
+}
+img {
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+
+.carousel-item img {
+    width: 30%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.carousel-inner{
+    justify-content: center !important;
+}
+
+.contato {
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+.contato h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contato h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.contato p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contato ul {
+    padding-left: 0;
+}
+.contato ul li {
+    margin-bottom: 0.5rem;
+}
+
+.contato a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: var(--color-blue);
+    padding: 10px 0;
+}
+.rodape h5{
+    color: var(--color-gray);
+}
+.rodape p{
+    color: var(--color-gray);
+}
+.rodape a{
+    color: var(--color-gray) !important;
+}
+
+
